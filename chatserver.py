@@ -34,7 +34,7 @@ class WSHandler(tornado.websocket.WebSocketHandler):
             c.write_message(message)
         #Or is this us?
         else:
-            #If so, change the sender to 'me' so we know they we sent the message ourselves
+            #If so, change the sender to 'me' so we know that we sent the message ourselves
             msg = json.dumps({"msg": parsed_json['msg'], "sender": "me"}, sort_keys=False)
             c.write_message(msg)
 
