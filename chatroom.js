@@ -1,4 +1,4 @@
-// IMPORTANT: replace 'SERVER_IP_GOES_HERE' with your server ip address, leave the ws:// and the :9090 (that's our port number) and the /ws
+// IMPORTANT: replace 'SERVER_IP_GOES_HERE' with your server ip address, leave the ws:// and the :9090/ws (that's our port number) and the /ws
 var ip = "ws://SERVER_IP_GOES_HERE:9090/ws";
 
 var serverReady = false;
